@@ -1,0 +1,9 @@
+# 变量读写：10 + 4 == 14
+PUSH 10
+STORE x
+PUSH 4
+STORE y
+LOAD x
+LOAD y
+ADD
+HALT

@@ -1,0 +1,8 @@
+# CALL 子过程把 7 翻倍：栈底 7，栈顶 14
+PUSH 7
+CALL 3
+HALT
+DUP
+PUSH 2
+MUL
+RET

@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.opvm text eol=lf
+*.out text eol=lf
+*.err text eol=lf

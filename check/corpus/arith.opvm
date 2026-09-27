@@ -1,0 +1,7 @@
+# 算术与栈复制：((2+3)^2) == 25
+PUSH 2
+PUSH 3
+ADD
+DUP
+MUL
+HALT

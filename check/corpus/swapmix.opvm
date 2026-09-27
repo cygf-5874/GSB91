@@ -1,0 +1,7 @@
+# SWAP 后追加 10 再相加：栈底 2，栈顶 11
+PUSH 1
+PUSH 2
+SWAP
+PUSH 10
+ADD
+HALT
