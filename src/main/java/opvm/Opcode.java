@@ -34,13 +34,10 @@ public final class Opcode {
 
     public static final Opcode HALT = new Opcode(14, "HALT");
 
-    /** 内置指令的固定清单（顺序即声明顺序）。 */
+    /** 内置指令的固定清单：按 opcode 数值升序（契约 4：顺序稳定）。 */
     private static final List<Opcode> BUILTINS = List.of(
-            PUSH, POP, DUP, SWAP,
-            ADD, SUB, MUL,
-            JMP, JZ, CALL, RET,
-            LOAD, STORE,
-            HALT);
+            PUSH, POP, ADD, SUB, MUL, DUP, SWAP,
+            JMP, JZ, LOAD, STORE, CALL, RET, HALT);
 
     private final int number;
     private final String mnemonic;
